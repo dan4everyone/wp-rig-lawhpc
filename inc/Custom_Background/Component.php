@@ -13,7 +13,7 @@ use function add_theme_support;
 use function apply_filters;
 
 /**
- * Class for adding custom background support.
+ * Class for adding custom background support
  */
 class Component implements Component_Interface {
 
