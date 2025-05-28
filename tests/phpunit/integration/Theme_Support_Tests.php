@@ -50,9 +50,6 @@ class Theme_Support_Tests extends Integration_Test_Case {
 				'custom-background',
 			),
 			array(
-				'customize-selective-refresh-widgets',
-			),
-			array(
 				'responsive-embeds',
 			),
 			array(
@@ -89,8 +86,6 @@ class Theme_Support_Tests extends Integration_Test_Case {
 		$this->assertEqualSets(
 			array(
 				'search-form',
-				'comment-form',
-				'comment-list',
 				'gallery',
 				'caption',
 			),

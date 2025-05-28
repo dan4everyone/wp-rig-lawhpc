@@ -78,7 +78,6 @@ class Component implements Component_Interface {
 					'categories' => '.category-links',
 					'tags'       => '.tag-links',
 					'author'     => '.posted-by',
-					'comment'    => '.comments-link',
 				),
 			)
 		);

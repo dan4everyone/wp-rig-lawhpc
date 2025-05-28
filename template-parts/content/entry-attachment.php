@@ -49,9 +49,4 @@ if ( is_singular( get_post_type() ) ) {
 			echo _navigation_markup( $attachment_navigation, $class = 'post-navigation', __( 'Post navigation', 'wp-rig' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		}
 	}
-
-	// Show comments only when the post type supports it and when comments are open or at least one comment exists.
-	if ( post_type_supports( get_post_type(), 'comments' ) && ( comments_open() || get_comments_number() ) ) {
-		comments_template();
-	}
 }
