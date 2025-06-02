@@ -1,16 +1,16 @@
 {
   "theme": {
-    "slug": "wp-rig-custom",
-    "name": "wp-rig-custom",
-    "description": "Custom WordPress theme based on WP Rig",
+    "slug": "wp-rig-lawhpc",
+    "name": "LAW-HPC Theme",
+    "description": "Custom theme for lawhpc.org based on wp-rig-custom",
     "version": "1.0.0",
     "author": "Daniel Gonzalez Montes",
     "authorURI": "https://www.linkedin.com/in/daniel-gonzalez-montes/",
     "license": "MIT",
     "licenseURI": "https://opensource.org/licenses/MIT",
-    "textDomain": "wp-rig-custom",
-    "namespace": "WPRigCustom"
-    },
+    "textDomain": "lawhpc",
+    "namespace": "LAWHPC"
+},
   "dev": {
     "browserSync": {
       "live": true,
